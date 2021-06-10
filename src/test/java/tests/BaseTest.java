@@ -29,8 +29,8 @@ public class BaseTest {
         moodUpdatedModalPage = new MoodUpdatedModalPage();
     }
 
-    /*@AfterMethod
+    @AfterMethod
     public void closeBrowser() {
         getWebDriver().quit();
-    }*/
+    }
 }
